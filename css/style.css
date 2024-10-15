@@ -1894,7 +1894,9 @@ video.video-bg {
     transform: scale(1.1) translateY(-10px);
 }
 
-
+.services-text p{
+    text-align: justify;
+}
 /* ---- Information ---- */
 
 .info:nth-child(2n) {
