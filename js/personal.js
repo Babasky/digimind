@@ -8,6 +8,6 @@ document.getElementById('learn-more').addEventListener('click', function(event) 
         this.textContent = 'Voir moins'; // Change le texte du bouton
     } else {
         hiddenText.style.display = 'none';
-        this.textContent = 'Learn More'; // Restaure le texte du bouton
+        this.textContent = 'Voir plus'; // Restaure le texte du bouton
     }
 });
