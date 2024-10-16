@@ -637,15 +637,15 @@ img {
 -------------------------------------- */
 
 .top-header {
-    background: #1f1f1f;
-    color: #a4a4a4;
+    background: #1B2631;
+    color: #ECF0F1;
     z-index: 5;
     position: relative;
 }
 
 .top-header a {
     font-size: 14px;
-    color: #999;
+    color: #ECF0F1;
 }
 
 .top-header ul {}
@@ -1123,20 +1123,20 @@ header.navbar-fixed-top {
 }
 
 nav.navbar {
-    background: #0c112a;
+    background: #1B2631;
     border: none;
     padding: 10px 0;
     margin: 0;
 }
 
 img.logo {
-    height: 150px;
+    height: 50px;
     cursor: pointer;
-    margin-top: -58px;
+    margin-top: -22px;
 }
 
 .nav>li>a:focus,
-.nav>li>a:hover,
+.nav>li>a:hover
 {
     background: none !important;
 }
@@ -1149,7 +1149,7 @@ img.logo {
     text-transform: uppercase;
     font-size: 14px;
     font-weight: 600;
-    color: #f6f6f6;
+    color: #ECF0F1;
 }
 
 .navbar .navbar-nav > li > a:hover {
@@ -1177,7 +1177,7 @@ img.logo {
 }
 
 header.navbar-fixed-top {
-    background: #0c112a;
+    background: #1B2631;
 }
 
 .navbar .navbar-nav > li {
@@ -2529,7 +2529,7 @@ section.buy-now h2 {
 -------------------------------------- */
 
 footer {
-    background: #0c112a;
+    background: #1B2631;
     position: relative;
 }
 
@@ -2613,7 +2613,7 @@ footer {
 .contact-form .input-box:focus,
 .contact-form .textarea-box:active,
 .contact-form .textarea-box:focus {
-    color: #f6f6f6;
+    color: #1B2631;
     border: 1px solid #29b2fe;
 }
 
@@ -3621,7 +3621,7 @@ section.testimonials-page2 {
 }
 
 .pricing-table1 .pricing-plan .price .amount {
-    font-size: 52px;
+    font-size: 35px;
     font-weight: bold;
     vertical-align: middle;
 }
