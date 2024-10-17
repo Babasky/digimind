@@ -340,10 +340,8 @@ Author URI: gnodesign.com
         visibility: hidden;
     }
     .testimonial .owl-item .item .review .review-inner blockquote {
-        position: absolute;
-        top: 50%;
         padding-top: 30px;
-        width: 75%;
+        width: 40%;
         margin: 0 auto;
         left: 0;
         right: 0;
@@ -687,7 +685,7 @@ Author URI: gnodesign.com
 		TESTIMONIAL
 	****************/
     .testimonial .owl-item .item .review .review-inner blockquote {
-        top: 40%;
+        top: 0%;
     }
     .testimonial .owl-item .item .review .review-inner blockquote:before {
         top: -50px;
@@ -874,7 +872,7 @@ Author URI: gnodesign.com
 		TESTIMONIAL
 	****************/
     .testimonial .owl-item .item .review .review-inner blockquote {
-        top: 30%;
+        top: 0%;
     }
     .testimonial .owl-item .item .review .review-inner blockquote:before {
         top: -20px;
