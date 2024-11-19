@@ -16,7 +16,7 @@
 
     <!-- Website Title -->
     <title>Digimind</title>
-    <link rel="shortcut icon" href="images/1-4.PNG" type="image/x-icon">
+    <link rel="shortcut icon" href="assets/images/1-4.PNG" type="image/x-icon">
     <link rel="apple-touch-icon-precomposed" href="images/apple-touch-icon.png">
 
     <!-- Google Fonts -->
@@ -47,19 +47,6 @@
                     </ul>
                 </div>
                 <!-- phone and social end -->
-
-                <div class="col-md-6 col-sm-6 col-xs-12">
-                    <!-- chat and account button begin -->
-                    <!-- <ul class="top-button ptb10">
-                        <li>
-                            <a href="#" class="btn btn-small btn-border btn-green customer-support wow fadeInRight" data-wow-delay="0.2s"><i class="fa fa-comments"></i>live chat</a>
-                        </li>
-                        <li class="login">
-                            <a id="modal_trigger" class="btn btn-small btn-border-rev btn-blue wow fadeInRight" data-wow-delay="0.4s" href="#"><i class="fa fa-user"></i>Client Area</a>
-                        </li>
-                    </ul> -->
-                    <!-- chat and account button end -->
-                </div>
             </div>
         </div>
     </div>
@@ -121,8 +108,8 @@
                                     <br>la communication digitale et visuelle</p>
                             </div>
                         </div>
-                        <video class="video-bg" muted  loop="" autoplay="" poster="video/video.jpg" style="opacity: 0.25;">
-                            <source src="assets/video/1.MP4" type="video/mp4">
+                        <video class="video-bg" muted  loop="" autoplay=""  style="opacity: 0.25;">
+                            <source src="assets/video/1.mp4">
                         </video>
                     </div>
                 </div>
@@ -137,8 +124,8 @@
                                 <br>notre souci vous satisfaire au maximum</p>
                         </div>
                     </div>
-                    <video class="video-bg"  loop="" autoplay="" poster="video/video.jpg">
-                        <source src="assets/video/2.mp4" type="video/mp4">
+                    <video class="video-bg"  loop="" autoplay="" muted>
+                        <source src="assets/video/2.mp4">
                     </video>
                 </div>
                 <!-- End of Slide 2 -->
@@ -152,7 +139,7 @@
                                 <br>et apprenez dans la joie et la bonne humeur</p>
                         </div>
                     </div>
-                    <video class="video-bg" loop="" autoplay="" poster="video/video.jpg">
+                    <video class="video-bg" loop="" autoplay="" muted>
                         <source src="assets/video/3.mp4" type="video/mp4">
                     </video>
                 </div>
@@ -755,10 +742,10 @@
 
                 <div class="row contact-form pt40">
                     <!-- start of form -->
-                    <form id="contact-form">
+                    <form  action="https://formsubmit.io/send/boureimamaiga67@gmail.com" method="post">
 
                         <!-- contact result -->
-                        <div id="contact-result"></div>
+                        <!-- <div id="contact-result"></div> -->
                         <!-- end of contact result -->
 
                         <div class="col-md-6">
@@ -771,6 +758,7 @@
                         <div class="col-md-12">
                             <input class="form-control input-box" type="text" name="subject" placeholder="Objet">
                             <textarea class="form-control textarea-box mtb20" rows="8" name="message" placeholder="Message"></textarea>
+                            <input name="_formsubmit_id" type="text" style="display:none">
                             <button class="btn btn-border btn-blue" type="submit">Envoyer</button>
                         </div>
                     </form>
